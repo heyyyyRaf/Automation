@@ -1,0 +1,10 @@
+=== PYTHON TRACEBACK ===
+Traceback (most recent call last):
+  File "c:\Users\Rafael\TEST\Updated.Automation.py", line 476, in run_scenario
+    page.get_by_role("button", name="Sign in").click().wait_for(timeout=30000)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'wait_for'
+
+
+=== UI ERROR MESSAGE ===
+Authentication error. Invalid credentials. Please try again.

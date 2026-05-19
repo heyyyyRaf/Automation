@@ -1,0 +1,8 @@
+=== PYTHON TRACEBACK ===
+Traceback (most recent call last):
+  File "c:\Users\Rafael\TEST\Updated.Automation.py", line 896, in run_scenario
+    page.get_by_role("textbox", name="Enter MPIN or Password").fill("Traxion123!")(timeout=30000)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+
+

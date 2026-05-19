@@ -1,0 +1,8 @@
+=== PYTHON TRACEBACK ===
+Traceback (most recent call last):
+  File "c:\Users\Rafael\TEST\Updated.Automation.py", line 890, in run_scenario
+    page.locator("div").filter(has_text=re.compile("^EASYTRIP 400$")).click()
+                                        ^^
+NameError: name 're' is not defined. Did you forget to import 're'?
+
+

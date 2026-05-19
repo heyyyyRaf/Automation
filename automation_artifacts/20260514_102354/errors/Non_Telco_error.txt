@@ -1,0 +1,8 @@
+=== PYTHON TRACEBACK ===
+Traceback (most recent call last):
+  File "c:\Users\Rafael\TEST\Updated.Automation.py", line 901, in run_scenario
+    has_text=re.compile(r"^EASYTRIP 600$")
+             ^^
+NameError: name 're' is not defined. Did you forget to import 're'?
+
+

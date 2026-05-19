@@ -1,0 +1,56 @@
+import re
+from playwright.sync_api import Playwright, sync_playwright, expect
+
+
+def run(playwright: Playwright) -> None:
+    browser = playwright.chromium.launch(headless=False, slow_mo=800)
+    browser = playwright.chromium.launch(headless=False)
+    context = browser.new_context()
+    page = context.new_page()
+    page.goto("https://digicoop-sit.traxionpay.com/signin")
+    page.get_by_role("textbox", name="your@email.com").click()
+    page.get_by_role("textbox", name="your@email.com").fill("blaserna+digicoop@traxiontech.net")
+    page.get_by_role("textbox", name="your@email.com").press("Tab")
+    page.get_by_role("textbox", name="your password").fill("Traxion123!")
+    page.get_by_role("button", name="Sign in").click()
+    page.get_by_role("link", name="Bills Payment").click()
+    page.get_by_role("textbox", name="Search Billers").click()
+    page.get_by_role("textbox", name="Search Billers").fill("barangka")
+    page.get_by_role("button", name="Search").click()
+    page.get_by_role("link", name="Barangka Credit Cooperative").click()
+    page.locator("input[name=\"member_name\"]").click()
+    page.locator("input[name=\"member_name\"]").fill("Lebron")
+    page.locator("input[name=\"member_name\"]").press("Tab")
+    page.locator("input[name=\"account_number\"]").press("Insert")
+    page.locator("input[name=\"account_number\"]").press("PageUp")
+    page.locator("input[name=\"account_number\"]").press("ArrowDown")
+    page.locator("input[name=\"account_number\"]").press("ArrowDown")
+    page.locator("input[name=\"account_number\"]").press("ArrowDown")
+    page.locator("input[name=\"account_number\"]").press("ArrowDown")
+    page.locator("input[name=\"account_number\"]").press("NumLock")
+    page.locator("input[name=\"account_number\"]").fill("09555")
+    page.locator("input[name=\"account_number\"]").press("Tab")
+    page.locator("input[name=\"contact_number\"]").fill("09555")
+    page.locator("input[name=\"contact_number\"]").press("Tab")
+    page.locator("input[name=\"loan\"]").click()
+    page.locator("input[name=\"loan\"]").fill("Loan")
+    page.locator("input[name=\"loan\"]").press("Tab")
+    page.locator("input[name=\"savings\"]").fill("500")
+    page.locator("input[name=\"savings\"]").press("Tab")
+    page.locator("input[name=\"share_capital\"]").fill("500")
+    page.locator("input[name=\"share_capital\"]").press("Tab")
+    page.get_by_role("spinbutton").fill("500")
+    page.get_by_role("spinbutton").press("Tab")
+    page.locator("input[name=\"remarks\"]").fill("500")
+    page.get_by_role("link", name="Proceed").click()
+    page.get_by_role("textbox", name="form-control required field").click()
+    page.get_by_role("textbox", name="form-control required field").fill("231895")
+    page.get_by_role("button", name="Submit").click()
+
+    # ---------------------
+    context.close()
+    browser.close()
+
+
+with sync_playwright() as playwright:
+    run(playwright)

@@ -1,0 +1,8 @@
+=== PYTHON TRACEBACK ===
+Traceback (most recent call last):
+  File "c:\Users\Rafael\TEST\Updated.Automation.py", line 1403, in run_scenario
+    data = TestDataGenerator()
+           ^^^^^^^^^^^^^^^^^
+NameError: name 'TestDataGenerator' is not defined
+
+

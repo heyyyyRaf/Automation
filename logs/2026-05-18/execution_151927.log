@@ -1,0 +1,36 @@
+2026-05-18 15:19:34,314 - [INFO] - ================================================
+2026-05-18 15:19:34,314 - [INFO] - STARTING SUITE: Bibo [SIT]
+2026-05-18 15:19:34,314 - [INFO] - Scenarios queued: 10
+2026-05-18 15:19:34,859 - [INFO] - Initializing Browser Context: CHROME
+2026-05-18 15:19:34,871 - [ERROR] - Unhandled Exception in Scenario: BrowserType.launch: Chromium distribution 'chrome' is not found at C:\Users\Rafael\AppData\Local\Google\Chrome\Application\chrome.exe
+Run "playwright install chrome"
+2026-05-18 15:19:34,874 - [INFO] - Initializing Browser Context: CHROME
+2026-05-18 15:19:34,880 - [ERROR] - Unhandled Exception in Scenario: BrowserType.launch: Chromium distribution 'chrome' is not found at C:\Users\Rafael\AppData\Local\Google\Chrome\Application\chrome.exe
+Run "playwright install chrome"
+2026-05-18 15:19:34,883 - [INFO] - Initializing Browser Context: CHROME
+2026-05-18 15:19:34,889 - [ERROR] - Unhandled Exception in Scenario: BrowserType.launch: Chromium distribution 'chrome' is not found at C:\Users\Rafael\AppData\Local\Google\Chrome\Application\chrome.exe
+Run "playwright install chrome"
+2026-05-18 15:19:34,893 - [INFO] - Initializing Browser Context: CHROME
+2026-05-18 15:19:34,899 - [ERROR] - Unhandled Exception in Scenario: BrowserType.launch: Chromium distribution 'chrome' is not found at C:\Users\Rafael\AppData\Local\Google\Chrome\Application\chrome.exe
+Run "playwright install chrome"
+2026-05-18 15:19:34,901 - [INFO] - Initializing Browser Context: CHROME
+2026-05-18 15:19:34,906 - [ERROR] - Unhandled Exception in Scenario: BrowserType.launch: Chromium distribution 'chrome' is not found at C:\Users\Rafael\AppData\Local\Google\Chrome\Application\chrome.exe
+Run "playwright install chrome"
+2026-05-18 15:19:34,908 - [INFO] - Initializing Browser Context: CHROME
+2026-05-18 15:19:34,915 - [ERROR] - Unhandled Exception in Scenario: BrowserType.launch: Chromium distribution 'chrome' is not found at C:\Users\Rafael\AppData\Local\Google\Chrome\Application\chrome.exe
+Run "playwright install chrome"
+2026-05-18 15:19:34,917 - [INFO] - Initializing Browser Context: CHROME
+2026-05-18 15:19:34,924 - [ERROR] - Unhandled Exception in Scenario: BrowserType.launch: Chromium distribution 'chrome' is not found at C:\Users\Rafael\AppData\Local\Google\Chrome\Application\chrome.exe
+Run "playwright install chrome"
+2026-05-18 15:19:34,928 - [INFO] - Initializing Browser Context: CHROME
+2026-05-18 15:19:34,935 - [ERROR] - Unhandled Exception in Scenario: BrowserType.launch: Chromium distribution 'chrome' is not found at C:\Users\Rafael\AppData\Local\Google\Chrome\Application\chrome.exe
+Run "playwright install chrome"
+2026-05-18 15:19:34,938 - [INFO] - Initializing Browser Context: CHROME
+2026-05-18 15:19:34,945 - [ERROR] - Unhandled Exception in Scenario: BrowserType.launch: Chromium distribution 'chrome' is not found at C:\Users\Rafael\AppData\Local\Google\Chrome\Application\chrome.exe
+Run "playwright install chrome"
+2026-05-18 15:19:34,948 - [INFO] - Initializing Browser Context: CHROME
+2026-05-18 15:19:34,953 - [ERROR] - Unhandled Exception in Scenario: BrowserType.launch: Chromium distribution 'chrome' is not found at C:\Users\Rafael\AppData\Local\Google\Chrome\Application\chrome.exe
+Run "playwright install chrome"
+2026-05-18 15:19:34,974 - [INFO] - Suite Completed. Total time: 0h 0m 0s
+2026-05-18 15:19:34,975 - [INFO] - Compiling report and dispatching via email...
+2026-05-18 15:19:38,702 - [INFO] - Email report sent successfully

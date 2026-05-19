@@ -1,0 +1,7 @@
+=== PYTHON TRACEBACK ===
+Traceback (most recent call last):
+  File "c:\Users\Rafael\TEST\Updated.Automation.py", line 1618, in run_scenario
+    user_role = page.get_by_label("User Role *",timeout=5000)
+TypeError: Page.get_by_label() got an unexpected keyword argument 'timeout'
+
+

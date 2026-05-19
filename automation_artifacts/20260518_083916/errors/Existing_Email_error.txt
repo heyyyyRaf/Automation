@@ -1,0 +1,8 @@
+=== PYTHON TRACEBACK ===
+Traceback (most recent call last):
+  File "c:\Users\Rafael\TEST\Updated.Automation.py", line 1410, in run_scenario
+    page.get_by_role("textbox", name="First Name *").fill(first_name)
+                                                          ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'first_name' where it is not associated with a value
+
+
